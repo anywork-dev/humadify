@@ -39,13 +39,3 @@ import { Button, Form, NavigationMenu } from 'humadify';
 ## Conclusion
 
 Humadify is a valuable resource for web developers, providing them with the tools they need to create high-quality, human-centered interfaces quickly and efficiently. We invite you to explore our library and see how it can enhance your web development process.
-
-Citations:
-[1] https://worldwidescience.org/topicpages/h/humidifiers.html
-[2] https://ntrs.nasa.gov/api/citations/20030003758/downloads/20030003758.pdf
-[3] https://www.jstor.org/stable/45128653
-[4] https://www.goldenlightpublish.com/dosyalar/baski/JCEMI_2022_310.pdf
-[5] https://www.academia.edu/89939849/Evaluating_the_impact_of_building_envelope_on_energy_performance_A_cooling_analyses
-[6] https://bteup.ac.in/Syllabus/folder2223/365-TEXTILE%20ENGINEERING(THREE%20YEAR).pdf
-[7] http://libraryir.parliament.go.ke/bitstream/handle/123456789/4195/International%20Preservation%20News%20from%20Traditional%20to%20Digital%20written%20Heritage%20An%20Asian%20Perspective%200001.pdf?isAllowed=y&sequence=1
-[8] https://www.scribd.com/document/424279116/Product-Range-en-2005
