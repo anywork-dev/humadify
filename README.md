@@ -1,47 +1,51 @@
-# Svelte + Vite
+# Humadify: Human Design Web Components
 
-This template should help get you started developing with Svelte in Vite.
+## Introduction
 
-## Recommended IDE Setup
+Humadify is a comprehensive library of reusable web components designed to streamline the process of creating human-centered interfaces. Our goal is to provide developers with a set of pre-built, customizable components that can be easily integrated into any web project. 
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+## Key Features
 
-## Need an official Svelte framework?
+### Accessibility
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+At Humadify, we believe that everyone should be able to use the web. That's why we've made accessibility a core feature of our components. Each component is designed with accessibility in mind, ensuring that they can be used by as many people as possible, regardless of their abilities or disabilities.
 
-## Technical considerations
+### Usability
 
-**Why use this over SvelteKit?**
+Usability is another key feature of Humadify. We strive to create components that are not only functional but also easy to use. We focus on intuitive design and clear, understandable interactions, making it easier for users to achieve their goals.
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+## Modularity
 
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+Humadify is built on the principle of modularity. This means that developers can use only the components they need, reducing the overall complexity and size of their projects. This approach also promotes code reusability and maintainability, leading to more efficient development processes and higher quality end products.
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+## Comprehensive Documentation
 
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+In addition to the component library, Humadify also includes comprehensive documentation and examples to help developers understand how to use the components effectively. This makes the project accessible to developers of all skill levels, from beginners to experienced professionals.
 
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+## Getting Started
 
-**Why include `.vscode/extensions.json`?**
+To get started with Humadify, you can install it via npm:
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `checkJs` in the JS template?**
-
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+```bash
+npm install humadify
 ```
+
+Then, you can import the components you need into your project:
+
+```javascript
+import { Button, Form, NavigationMenu } from 'humadify';
+```
+
+## Conclusion
+
+Humadify is a valuable resource for web developers, providing them with the tools they need to create high-quality, human-centered interfaces quickly and efficiently. We invite you to explore our library and see how it can enhance your web development process.
+
+Citations:
+[1] https://worldwidescience.org/topicpages/h/humidifiers.html
+[2] https://ntrs.nasa.gov/api/citations/20030003758/downloads/20030003758.pdf
+[3] https://www.jstor.org/stable/45128653
+[4] https://www.goldenlightpublish.com/dosyalar/baski/JCEMI_2022_310.pdf
+[5] https://www.academia.edu/89939849/Evaluating_the_impact_of_building_envelope_on_energy_performance_A_cooling_analyses
+[6] https://bteup.ac.in/Syllabus/folder2223/365-TEXTILE%20ENGINEERING(THREE%20YEAR).pdf
+[7] http://libraryir.parliament.go.ke/bitstream/handle/123456789/4195/International%20Preservation%20News%20from%20Traditional%20to%20Digital%20written%20Heritage%20An%20Asian%20Perspective%200001.pdf?isAllowed=y&sequence=1
+[8] https://www.scribd.com/document/424279116/Product-Range-en-2005
